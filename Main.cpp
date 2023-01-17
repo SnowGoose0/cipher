@@ -47,6 +47,7 @@ set_clipboard_win(std::string input) {
 	}
 
 	memcpy(glob_void, input_cstr, input_len);
+	
 	GlobalUnlock(glob);
 	OpenClipboard(0);
 	EmptyClipboard();
@@ -74,7 +75,6 @@ main() {
 
 		std::cout << std::endl;
 
-	
 		switch (opt) {
 			case 'q':
 				PROGRAM_STATUS = STATUS_EXIT;
