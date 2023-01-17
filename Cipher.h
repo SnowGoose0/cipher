@@ -4,7 +4,6 @@
 
 #include <iostream>
 #include <random>
-#include <windows.h>
 #include <string>
 
 std::string
