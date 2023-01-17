@@ -28,7 +28,8 @@ cipher_main(std::string content) {
 
 	ciph = offset_str;
 
-	for (std::string::iterator it = content.begin();
+	for (
+		std::string::iterator it = content.begin();
 		it != content.end();
 		it++) {
 
